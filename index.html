@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head> 
 <body>
     <header class="header">
@@ -408,21 +408,18 @@
                 </ul>
             </div>
             <div class="footer__subscribe">
-                <!-- <p class="footer-subscribe-title">Підпишіться на розсилку</p> -->
-                <label for="user-email" class="subscribe__title">Підпишіться на розсилку</label>
-                <div class="input__container">
+                <p class="subscribe__title">Підпишіться на розсилку</p>
+                <form class="footer__input">
                 <input 
                 class="subscribe__input" 
                 type="email" 
                 name="user-email"
-                id="user-email"
                 placeholder="E-mail">
                 <button class="btn position-center" type="submit">Підписатися
                 <svg class="subscribe__icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-send"></use>
                 </svg>
                 </button>
-                </div>
             </div>
         </div>
     </footer>
