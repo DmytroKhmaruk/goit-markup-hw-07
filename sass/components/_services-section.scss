@@ -16,9 +16,8 @@
 
 .services__thumb {
     position: relative;
-}
-
-.services__thumb::before {
+    
+    &::before {
     display: inline-block;
     content: '';
 
@@ -29,6 +28,7 @@
     height: 70px;
 
     background-color: rgba(47, 48, 58, 0.8);;
+}
 }
 
 .services__subtitle {
@@ -43,6 +43,6 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 
 }

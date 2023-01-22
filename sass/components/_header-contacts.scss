@@ -4,13 +4,8 @@
     margin-right: 10px;
 
     fill: currentColor;
-}
-
-.header__icon:hover,
-.header__icon:focus {
-    color: var(--accent-color);
-}
-
-.header .link {
-    color: var(--tittle-text-color);
+    
+    &:hover, &:focus {
+    color: $accent-color;
+    }
 }

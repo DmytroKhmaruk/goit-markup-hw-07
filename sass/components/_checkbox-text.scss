@@ -5,10 +5,9 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--tittle-text-color);
- 
-}
-
-.check__text :hover {
-    border-color: var(--accent-color);
+    color: $tittle-text-color;
+    
+    & :hover {
+    border-color: $accent-color;
+    }
 }

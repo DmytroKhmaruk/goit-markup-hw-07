@@ -1,9 +1,9 @@
-.benefit__item {
-    max-width: 270px;
+.benefit__list {
+    gap: 30px;
 }
 
-.benefit__item:not(:last-child) {
-    margin-right: 30px;
+.benefit__item {
+    max-width: 270px;
 }
 
 .benefit__svg {

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head> 
 <body>
     <header class="header">
@@ -31,14 +31,14 @@
             
             <ul class="header__list header__list--gap list">
                 <li class="header__item">
-                    <a href="mailto:info@devstudio.com" class="header__link link position-center">
+                    <a href="mailto:info@devstudio.com" class="header__link header__link--grey position-center">
                         <svg class="header__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                     info@devstudio.com</a>
                 </li>
                 <li class="header__item">
-                    <a href="tel:+380961111111" class="header__link link position-center">
+                    <a href="tel:+380961111111" class="header__link header__link--grey position-center">
                         <svg class="header__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
@@ -68,7 +68,7 @@
                     <h3 class="benefit__subtitle spacing">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="benefit__text desc">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li class="benefit-item">
+                <li class="benefit__item">
                     <div class="benefit__svg position-center">
                         <svg class="benefit__icon" width="70" height="70">
                             <use href="./images/icons.svg#icon-clock"></use>
@@ -77,7 +77,7 @@
                     <h3 class="benefit__subtitle spacing">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="benefit__text desc">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li class="benefit-item">
+                <li class="benefit__item">
                     <div class="benefit__svg position-center">
                         <svg class="benefit__icon" width="70" height="70">
                             <use href="./images/icons.svg#icon-diagram"></use>
@@ -86,7 +86,7 @@
                     <h3 class="benefit__subtitle spacing">ПЛАНУВАННЯ</h3>
                     <p class="benefit__text desc">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li class="benefit-item">
+                <li class="benefit__item">
                     <div class="benefit__svg position-center">
                         <svg class="benefit__icon" width="70" height="70">
                             <use href="./images/icons.svg#icon-astronaut"></use>
@@ -369,8 +369,8 @@
                 <address class="footer__address">
                 <ul class="footer__list--inline list">
                     <li class="footer__item"><a class="address__link" href="https://goo.gl/maps/MC3FKYj6ZszySW3c8" target="_blank">м. Київ, пр-т Лесі Українки, 26</a></li>
-                    <li class="footer__item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer__item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer__item"><a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer__item"><a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul> 
             </address>
             </div>
@@ -420,6 +420,7 @@
                     <use href="./images/icons.svg#icon-send"></use>
                 </svg>
                 </button>
+                </form>
             </div>
         </div>
     </footer>
