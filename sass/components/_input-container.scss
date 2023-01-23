@@ -1,6 +1,8 @@
 .modal__field {
     position: relative;
+}
 
+.modal__field:not(:last-child) {
     margin-bottom: 10px;
 }
 
